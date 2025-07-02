@@ -1,0 +1,51 @@
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.yt-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 20px;
+
+}
+
+.thumbnails {
+    width: 100%;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    vertical-align: top;
+}
+
+.bottom-div {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+
+.video-description {
+    font-family: Roboto, Arial;
+    margin-left: 10px;
+
+}
+
+.video-info,
+.video-title,
+.video-author {
+    width: 100%
+}
+
+.video-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.video-author {
+    margin-bottom: 10px;
+}

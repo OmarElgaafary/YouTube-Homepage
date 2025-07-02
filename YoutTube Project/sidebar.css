@@ -1,0 +1,117 @@
+.side-bar {
+    position: fixed;
+    margin-top: 10px;
+    top: 56px;
+    left: 0px;
+    width: 200px;
+    bottom: 0;
+    padding: 10px;
+    background-color: white;  
+    z-index: 1000;           
+    border-radius: 5px;
+}
+
+.wrapper
+{
+    width: 200px;
+    height: 150px;
+    border-bottom: 2px solid #333;
+    border-radius: 5px;
+    border-color: lightgray;
+    padding: 10px;
+}
+
+.home-bar {
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+
+}
+
+.home-button, .shorts-button, .subscriptions-button {
+    font-family: Roboto, arial;
+    font-weight: 700px;
+    background-color: white;
+    height: 48px;
+    width: 175px;
+    border-radius: 15px;
+    border: none;
+}
+
+.home-button:hover, .shorts-button:hover, .subscriptions-button:hover,.home-button:active, .shorts-button:active, .subscriptions-button:active
+{
+    background-color: lightgray;
+}
+
+.you-bar
+{
+    font-family: roboto, arial;
+    font-weight: bold;
+    padding-bottom: 20px;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+
+}
+
+.history, .playlists,.your-videos,.your-courses,.watch-later,.liked-videos,.your-clips
+{
+    font-family: Roboto, arial;
+    font-weight: 700px;
+    background-color: white;
+    height: 48px;
+    width: 175px;
+    border-radius: 15px;
+    border: none;
+}
+
+.history:hover, .playlists:hover,.your-videos:hover,.your-courses:hover,.watch-later:hover,.liked-videos:hover,.your-clips:hover,.history:active, .playlists:active,.your-videos:active,.your-courses:active,.watch-later:active,.liked-videos:active,.your-clips:active
+{
+    background-color: lightgray;
+}
+
+.wrapper2
+{
+    width: 200px;
+    height: 350px;
+    border-bottom: 2px solid #333;
+    border-radius: 5px;
+    border-color: lightgray;
+    padding: 10px;
+}
+
+.subscriptions
+{
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.subscriptions-bar
+{
+    margin-top: 20px;
+    font-family: roboto, arial;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.ted,.chess,.prime,.neet,.ben
+{
+    font-family: Roboto, arial;
+    font-weight: 700px;
+    background-color: white;
+    height: 48px;
+    width: 175px;
+    border-radius: 15px;
+    border: none;
+}
+
+.ted:hover,.chess:hover,.prime:hover,.neet:hover,.ben:hover,.ted:active,.chess:active,.prime:active,.neet:active,.ben:active
+{
+    background-color: lightgray;
+}
