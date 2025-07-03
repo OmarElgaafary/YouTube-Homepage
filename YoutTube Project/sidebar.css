@@ -9,6 +9,7 @@
     background-color: white;  
     z-index: 1000;           
     border-radius: 5px;
+    overflow-y: auto;
 }
 
 .wrapper
@@ -31,7 +32,6 @@
 }
 
 .home-button, .shorts-button, .subscriptions-button {
-    font-family: Roboto, arial;
     font-weight: 700px;
     background-color: white;
     height: 48px;
@@ -47,7 +47,6 @@
 
 .you-bar
 {
-    font-family: roboto, arial;
     font-weight: bold;
     padding-bottom: 20px;
     border-color: black;
@@ -60,7 +59,6 @@
 
 .history, .playlists,.your-videos,.your-courses,.watch-later,.liked-videos,.your-clips
 {
-    font-family: Roboto, arial;
     font-weight: 700px;
     background-color: white;
     height: 48px;
@@ -95,14 +93,12 @@
 .subscriptions-bar
 {
     margin-top: 20px;
-    font-family: roboto, arial;
     font-weight: bold;
     padding-bottom: 20px;
 }
 
 .ted,.chess,.prime,.neet,.ben
 {
-    font-family: Roboto, arial;
     font-weight: 700px;
     background-color: white;
     height: 48px;
