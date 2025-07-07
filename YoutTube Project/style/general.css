@@ -10,3 +10,8 @@ body
     height: 3000px;
     padding: 80px 75px 0px 250px;
 }
+
+button
+{
+    cursor: pointer;
+}

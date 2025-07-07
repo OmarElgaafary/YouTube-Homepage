@@ -10,6 +10,7 @@
     z-index: 1000;           
     border-radius: 5px;
     overflow-y: auto;
+    padding-left: 20px;
 }
 
 .wrapper
@@ -38,6 +39,7 @@
     width: 175px;
     border-radius: 15px;
     border: none;
+    text-align: left;
 }
 
 .home-button:hover, .shorts-button:hover, .subscriptions-button:hover,.home-button:active, .shorts-button:active, .subscriptions-button:active
@@ -54,6 +56,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
+    text-align: left;
 
 }
 
@@ -65,6 +68,7 @@
     width: 175px;
     border-radius: 15px;
     border: none;
+    text-align: left;
 }
 
 .history:hover, .playlists:hover,.your-videos:hover,.your-courses:hover,.watch-later:hover,.liked-videos:hover,.your-clips:hover,.history:active, .playlists:active,.your-videos:active,.your-courses:active,.watch-later:active,.liked-videos:active,.your-clips:active
@@ -97,17 +101,41 @@
     padding-bottom: 20px;
 }
 
-.ted,.chess,.prime,.neet,.ben
+.youtuber-box
 {
-    font-weight: 700px;
-    background-color: white;
-    height: 48px;
-    width: 175px;
-    border-radius: 15px;
-    border: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex: 1;
+    height: 50px;
+    
 }
 
-.ted:hover,.chess:hover,.prime:hover,.neet:hover,.ben:hover,.ted:active,.chess:active,.prime:active,.neet:active,.ben:active
+.youtuber-pfp
 {
-    background-color: lightgray;
+    width: 24px;
+    align-items: start;
+    margin-right: 10px;
+    border-radius: 12px;
+
+}
+
+.youtuber-name
+{
+    background-color: white;
+    display: flex;
+    width: 200px;
+    height: 40px;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 12px;
+    text-align: left;
+    align-items: center;
+}
+
+.youtuber-name:hover
+{
+    background-color: rgb(240, 240, 240);
 }
